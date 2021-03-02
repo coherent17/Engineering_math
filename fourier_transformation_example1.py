@@ -24,7 +24,7 @@ def fourier(a_0,a_n,b_n,iteration,x):
     return value
 
 #visualize the fourier transform
-discrete_num=500
+discrete_num=1000
 x=np.linspace(-math.pi,math.pi,discrete_num)
 y=[]
 for j in range(discrete_num):

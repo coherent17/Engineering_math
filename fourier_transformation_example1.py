@@ -2,7 +2,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-iteration=100
+iteration=100000
 
 #deal with a_0
 a_0=math.pi/4
@@ -31,7 +31,7 @@ for j in range(discrete_num):
     y.append(fourier(a_0,a_n,b_n,iteration,x[j]))
 
 plt.plot(x,y)
-plt.title("realize the fourier transformation (iteration times: %d)" %(iteration))
+plt.title("realize the fourier transformation (number of summations: %d)" %(iteration))
 plt.xlabel("x")
 plt.ylabel("y")
 

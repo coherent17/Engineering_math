@@ -34,7 +34,6 @@ plt.plot(x,y)
 plt.title("realize the fourier transformation (number of summations: %d)" %(iteration))
 plt.xlabel("x")
 plt.ylabel("y")
-
 plt.text(-3,1,"f(x)=0, for x=-π~0")
 plt.text(-3,0.5,"f(x)=π-x, for x=0~π")
 plt.show()

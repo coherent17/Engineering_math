@@ -2,7 +2,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-iteration=100000
+iteration=1000
 
 #deal with a_0
 a_0=math.pi/4

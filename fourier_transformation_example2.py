@@ -2,7 +2,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-iteration=20000
+iteration=15
 
 #deal with b_n
 b_n=[]
